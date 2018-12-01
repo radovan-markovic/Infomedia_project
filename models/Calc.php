@@ -10,6 +10,7 @@ class Calc {
       $this->db = new Database;
     }
 
+    //Add result to db
     public function addNewResult($data){
 
       $this->db->query('INSERT INTO multiplication (factor1, factor2, operation, result) 
