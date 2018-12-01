@@ -43,24 +43,17 @@
             //check numbers with two decimals
             if (str.length === 6){               
                 factor1 = (str.charAt(0) + str.charAt(1)).trim();
-                factor2 = (str.charAt(4) + str.charAt(5)).trim();
-                console.log(factor1);
-                console.log(factor2);
+                factor2 = (str.charAt(4) + str.charAt(5)).trim(); 
             }
             //Check numbers with two decimals
             else if (str.length === 7) {
                 factor1 = (str.charAt(0) + str.charAt(1));
                 factor2 = (str.charAt(5) + str.charAt(6));
-                console.log(factor1);
-                console.log(factor2);
             }
             //numbers with one decimal
             else {
-                console.log('uso');
                 factor1 = str.charAt(0);
 			    factor2 = str.charAt(4);
-			    console.log(factor1);	
-			    console.log(factor2);
             }
 			
 			calculateValue(factor1, factor2);
