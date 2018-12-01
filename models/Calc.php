@@ -2,6 +2,9 @@
 
 require('../libraries/Database.php');
 
+/**
+ * Create new record in db
+ */
 class Calc {
 
     private $db;

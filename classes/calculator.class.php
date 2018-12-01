@@ -1,5 +1,11 @@
 <?php
 
+/**
+ * Class calculator
+ * Caculate multiplication result of two factors
+ * Add record to db
+ * Return result 
+ */
 require '../models/Calc.php';
 
 class Calculator {
@@ -7,7 +13,7 @@ class Calculator {
     private $factor_1;
     private $factor_2;
 
-    //Get data from and mulitply data ajax request
+    //Get data from ajax and mulitply data ajax request
     public function miltiply(){
 
         if(isset($_POST['factor1']) && isset($_POST['factor1'])) {
