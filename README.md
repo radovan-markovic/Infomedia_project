@@ -1,2 +1,2 @@
 # Infomedia_project
-Mulitplication table (PHP, JS, Ajax, Bulma CSS)
+Mulitplication table (PHP, JS, Ajax, Bulma CSS...)
